@@ -1,5 +1,6 @@
 # Pharadol Portfolio
-This website showcases my various works.
+This website features a collection of my workshops and projects. You can access the application [here](https://pharadol-portfolio.vercel.app/).
+
 
 
 ## Tech Stack
@@ -10,7 +11,7 @@ This website showcases my various works.
 
 ## Installation
 ### 1. Clone the repository
-    Pharadol/pharadol-portfolio
+    git clone https://github.com/Pharadol/pharadol-portfolio
 ### 2. Install dependencies
     npm install
 ### 3. Run the application
