@@ -1,15 +1,13 @@
 <script setup>
 import Navbar from './components/์Navbar.vue';
+import Home from './components/section/Home.vue';
+import Project from './components/section/Project.vue';
+import Footer from './components/section/Footer.vue';
 </script>
 
 <template>
   <Navbar />
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
+  <Home />
+  <Project />
+  <Footer />
 </template>
