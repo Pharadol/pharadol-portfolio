@@ -1,5 +1,6 @@
 const pathImg = "/src/assets/images/projects";
 
+
 export const projectList = [
   {
     title: "Sawang",
@@ -16,7 +17,7 @@ export const projectList = [
   {
     title: "Sawang",
     link: "https://www.youtube.com",
-    thumbnail: `${pathImg}/Sawang.png`,
+    thumbnail: `https://img5.pic.in.th/file/secure-sv1/Sawang.png`,
   },
   {
     title: "Sawang",
