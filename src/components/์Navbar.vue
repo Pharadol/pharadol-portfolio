@@ -67,18 +67,18 @@ const scrollToSection = (sectionId, offset = 0) => {
 
 <style scoped>
 nav {
-  @apply navbar p-4;
-  /* background-image: linear-gradient(
+  @apply navbar p-4 z-20 pb-9;
+  background-image: linear-gradient(
     180deg,
     rgba(24, 24, 27, 1) 0%,
-    rgba(24, 24, 27, 1) 50%,
+    rgba(24, 24, 27, 1) 60%,
     rgba(24, 24, 27, 0) 100%
-  ); */
+  );
   .nav-content {
     @apply container mx-auto max-w-[1220px] flex justify-between items-center;
     .logo {
       @apply
-      text-gray-300 font-semibold text-2xl;
+      text-gray-100 font-semibold text-2xl;
     }
     ul {
       @apply text-gray-300 flex w-fit gap-5 sm:gap-12;

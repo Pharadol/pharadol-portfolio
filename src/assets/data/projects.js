@@ -1,4 +1,4 @@
-const pathImg = "/public/assets/image/project-thumbnail";
+const pathImg = "/src/assets/images/projects";
 
 export const projectList = [
   {

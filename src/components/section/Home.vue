@@ -11,7 +11,7 @@
 section {
   @apply bg-no-repeat bg-cover bg-center flex justify-center items-center h-[600px] sm:h-[800px] lg:h-[850px] 4xl:h-[1350px] ;
   background-image: linear-gradient(180deg, #00000012 60%, #18181b 90%,#18181b 100%),
-    url("./assets/image/bg.jpg");
+    url("../../assets/images/bg.jpg");
   div {
     @apply text-white text-center;
     h1 {
