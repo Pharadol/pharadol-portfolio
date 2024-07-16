@@ -1,8 +1,6 @@
 <script setup>
 import Card from "../Card.vue";
 import {projectList} from "../../assets/data/projects"
-
-const pathImg = "../src/assets/images/projects";
 </script>
 
 <template>

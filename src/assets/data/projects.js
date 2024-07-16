@@ -4,7 +4,7 @@ const BASE_URL_GITHUB = "https://github.com/Pharadol";
 export const projectList = [
   {
     title: "Elishop",
-    link: "https://eli-shop-br.vercel.app/",
+    link: "https://eli-shop-sable.vercel.app/",
     sourceCode: `${BASE_URL_GITHUB}/EliShop`,
     thumbnail: `https://img2.pic.in.th/pic/1-1_home-white.png`,
   },
