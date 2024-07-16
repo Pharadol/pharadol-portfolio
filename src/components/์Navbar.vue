@@ -86,7 +86,7 @@ nav {
         button {
           @apply text-lg font-semibold;
           &:hover {
-            @apply cursor-pointer underline text-gray-100;
+            @apply cursor-pointer underline underline-offset-4 text-gray-100;
           }
         }
       }

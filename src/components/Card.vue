@@ -19,9 +19,9 @@ const onClickImg = (link) => {
     <div class="cart-content">
       <h3>{{ item.title }}</h3>
       <div>
-        <a :href="item.link" target="_blank">{{ item.view ? item.view : "Website" }}</a>
-        <hr v-show="!item.isNoneSourceCode" />
-        <a v-show="!item.isNoneSourceCode" href="#" target="_blank">Github</a>
+        <a :href="item.link" target="_blank">{{ item.buttonText ? item.buttonText : "Website" }}</a>
+        <hr v-if="item.sourceCode" />
+        <a v-if="item.sourceCode":href="item.sourceCode" target="_blank">Github</a>
       </div>
     </div>
   </article>

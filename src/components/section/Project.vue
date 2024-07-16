@@ -1,99 +1,14 @@
 <script setup>
 import Card from "../Card.vue";
-import {projectList} from "../../assets/data/projectsLists"
+import {projectList} from "../../assets/data/projects"
 
 const pathImg = "../src/assets/images/projects";
-const workshopList = [
-  {
-    title: "Sawang",
-    link: "https://www.youtube.com",
-    thumbnail: `${pathImg}/Sawang.png`,
-  },
-  {
-    title: "Sawang",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img5.pic.in.th/file/secure-sv1/Sawang.png`,
-  },
-  {
-    title: "Image Slider",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img2.pic.in.th/pic/ImageSlider.png`,
-  },
-  {
-    title: "Dek-D Internship",
-    link: "https://www.youtube.com",
-    thumbnail: `${pathImg}/`,
-    view: "View",
-    isNoneSourceCode: true,
-  },
-  {
-    title: "Card Matching Game",
-    link: "https://www.youtube.com",
-    thumbnail: `${pathImg}/CardMatchingGame.png`,
-  },
-  {
-    title: "Expense Tracker React",
-    link: "https://www.youtube.com",
-    thumbnail: `${pathImg}/ExpenseTrackerReact.png`,
-  },
-  {
-    title: "Booking Movie Ticket",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img5.pic.in.th/file/secure-sv1/BookingMovieTicket.png`,
-  },
-  {
-    title: "Calculator",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img5.pic.in.th/file/secure-sv1/calculator146edb0d5c48bc2e.png`,
-  },
-  {
-    title: "Coundown to New Year",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img2.pic.in.th/pic/coundown-new-yeard36a50d015ecf778.png`,
-  },
-  {
-    title: "Currency Converter",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img5.pic.in.th/file/secure-sv1/currency-converter.png`,
-  },
-  {
-    title: "Theme Switcher JS",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img5.pic.in.th/file/secure-sv1/theme-switcher-js.png`,
-  },
-  {
-    title: "Music Player",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img2.pic.in.th/pic/music-player.png`,
-  },
-  {
-    title: "Note App",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img2.pic.in.th/pic/Screenshot-2024-07-08-161042.png`,
-  },
-  {
-    title: "Income Expense Tracker",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img2.pic.in.th/pic/income-expense-tracker.png`,
-  },
-  {
-    title: "Speed Typing Game",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img2.pic.in.th/pic/speed-typing-game.png`,
-  },
-  {
-    title: "Reveal Text On Scroll",
-    link: "https://www.youtube.com",
-    thumbnail: `https://img5.pic.in.th/file/secure-sv1/reveal-text-on-scroll.png`,
-  },
-];
 </script>
 
 <template>
   <section id="project">
     <div class="main">
       <h2>PROJECT & WORKSHOP</h2>
-      <img src="/src/assets/images/projects/CardMatchingGame.png" alt="">
       <div class="project-list">
         <Card v-for="item in projectList" :key="item.title" :item="item" />
       </div>
